@@ -25,7 +25,7 @@ while True:
     result = open('nohup.out', 'r').read().find('Done')
     if result > -1:
         break
-        
+
 print("**script**: server has started!")
 time.sleep(10)
 print("**script**: starting ngrok tcp")
